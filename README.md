@@ -4,12 +4,11 @@ A Hubot script that translates into the nomulish words automatically.
 
 ## Installation
 
-    $ npm install git://github.com/bouzuya/hubot-auto-nomulish.git
+    $ npm install https://github.com/bouzuya/hubot-google-spreadsheet/archive/master.tar.gz
 
 or
 
-    $ # TAG is the package version you need.
-    $ npm install 'git://github.com/bouzuya/hubot-auto-nomulish.git#TAG'
+    $ npm install https://github.com/bouzuya/hubot-google-spreadsheet/archive/{VERSION}.tar.gz
 
 ## Example
 
