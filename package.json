@@ -1,6 +1,6 @@
 {
   "name": "hubot-auto-nomulish",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Hubot script that translates into the nomulish words automatically",
   "main": "index.js",
   "scripts": {
