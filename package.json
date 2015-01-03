@@ -44,7 +44,6 @@
   },
   "dependencies": {
     "cheerio": "^0.17.0",
-    "q": "^1.0.1",
-    "request": "^2.40.0"
+    "request-b": "^1.0.0"
   }
 }
