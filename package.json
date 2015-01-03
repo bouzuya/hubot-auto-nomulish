@@ -2,10 +2,14 @@
   "name": "hubot-auto-nomulish",
   "version": "1.0.0",
   "description": "A Hubot script that translates into the nomulish words automatically",
-  "main": "index.coffee",
+  "main": "index.js",
   "scripts": {
-    "robot": "hubot --adapter shell",
-    "test": "mocha --require espower-coffee/guess --reporter spec test/**/*.coffee"
+    "build": "gulp",
+    "clean": "gulp clean",
+    "coveralls": "gulp coveralls",
+    "robot": "HUBOT_SHELL_USER_NAME='bouzuya' hubot --adapter shell --name hubot",
+    "test": "gulp test",
+    "watch": "gulp watch"
   },
   "repository": {
     "type": "git",
